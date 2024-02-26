@@ -24,3 +24,9 @@ h1,h2,h3 {
       color: #8e96f0
   }
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
