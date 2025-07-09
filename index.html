@@ -1,87 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <title>Adam Coronel</title>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Adam Coronel" />
+        <meta name="description" content="The professional portfolio of Adam Coronel - a software engineer." />
+        <meta name="keywords" content="Adam, Coronel, Software Engineer, Portfolio, Website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="assets/global.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="intro-container">
+                <img
+                    src="assets/images/adam-headshot.JPEG"
+                    alt="A photo of Adam Coronel"
+                    class="headshot"
+                />
 
-<head>
-    <meta charset="utf-8">
-    <title>Adam Coronel</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Adam Coronel's Portfolio showcasing software engineering skills, projects, and professional experience.">
-    <link rel="stylesheet" href="style.css">
-</head>
+                <div class="intro-text">
+                    <h1>Adam Coronel</h1>
+                    <p>Software Engineer & Game Dev </p>
+                    <p>Student at <a href="https://www.depaul.edu/">DePaul University</a> </p>
+                </div>
+            </div>
+        </header>
 
-<body>
+        <!-- Introduction -->
+        <main>
+            <p>
+                Hello! I'm Adam.
+                This website showcases my work and how they were built.
+            </p>
+        </main>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Adam Coronel</h1>
-        <p>
-            Hello! I am a Software Engineer pursuing my undergraduate degree at the <a href="https://www.uic.edu/"
-                target="_blank">University of Illinois, Chicago</a>.
-            I am extremely passionate about technology and have a deep desire to learn.
-            Explore my projects and journey below.
-        </p>
-    </header>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Highlighted Projects</h2>
+            <ul>
+                <li>
+                    <a href="https://github.com/theblitzappcommunity/discord-bot" target="_blank">Blitz.gg Discord Bot</a>: A large-scale TypeScript Discord bot used by 70,000+ users.
+                </li>
+                <li>
+                    Cat & Yarn Video Game: A puzzle-platformer built in Godot. Designed UX wireframes, conducted usability testing, and refined gameplay based on structured user feedback.
+                </li>
+                <li>
+                    File Retrieval Engine: A multi-threaded C++ CLI tool to search files by keyword with ranked results and benchmarking. Implemented client-server models using gRPC, ZeroMQ, and POSIX sockets for scalable remote querying.
+                </li>
+            </ul>
+            Interested in my other works? Find the rest of them <a href="projects/">here.</a>
+        </section>
 
-    <!-- Professional Experience Section -->
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <p>
-            I've previously worked at <a href="https://blitz.gg/">Blitz.gg</a>, designing and maintaining a large-scale
-            application used by thousands of users.
-            This experience has taught me skills such as Agile Development methodologies, working with <i>React</i>
-            and <i>TypeScript</i> development tools, and collaborating within a team environment.
-        </p>
-    </section>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I've been tinkering with technology since childhood - building minecraft servers, modding games, and creating small tools just to learn how they work.
+            </p>
+            <p>
+                I'm currently pursuing my graduate degree in Computer Science at DePaul University. I previously achieved a bachelor degree in Computer Science at the University of Illinois Chicago and specialized my degree in Software Engineering.
+                Outside of coding, I'm a fifth-degree Taekwondo master and instructor, where I've learned leadership, communication, and mentorship through teaching.
+            </p>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <a href="https://github.com/theblitzappcommunity/discord-bot" target="_blank">Blitz.gg Discord Bot</a>:
-                A large-scale Discord bot made with <i>TypeScript</i> and used by over 70,000 users.
-                I worked on back-end scaling and improving the user experience.
-            </li>
-            <li>
-                <u>Library Management Application</u>: A full-stack group project utilizing an <i>ER database model</i>,
-                <i>PostgreSQL</i>
-                schema, and <i>Python</i> for the front-end. It includes features such as advanced search, user
-                authentication, and reporting tools for inventory
-                management.
-            </li>
-            <li>
-                <u>Idle Farming Simulator:</u> A Unity-based game developed with <i>C#</i>, teaching core software
-                engineering
-                practices with Kanban and XP methodologies. Emphasized test-driven development.
-            </li>
-        </ul>
-    </section>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:adamcoronel@me.com">adamcoronel@me.com</a></p>
+            <p>GitHub: <a href="https://github.com/adamcoronel" target="_blank">github.com/adamcoronel</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/adamcoronel/" target="_blank">linkedin.com/in/adamcoronel</a></p>
+        </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I've been fascinated with technology ever since I was a small child. My parents, both Software Engineers,
-            passed on their love for technology to me.
-            At the age of 9, I set up my own server using basic networking and code, sparking a lifelong passion for
-            computers.
-        </p>
-        <p>
-            Beyond technology, I've been a <em>Taekwondo</em> master since 2018, teaching others and honing my
-            leadership skills.
-            When I'm not working on software, you can find me practicing martial arts or exploring the latest video game
-            releases.
-        </p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:adamcoronel@me.com">adamcoronel@me.com</a></p>
-        <p>GitHub: <a href="https://github.com/adamcoronel" target="_blank">github.com/adamcoronel</a></p>
-    </section>
-
-</body>
-
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>© 2025 Adam Coronel · Built with HTML, CSS, and care.</p>
+        </footer>
+    </body>
 </html>
