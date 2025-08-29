@@ -74,45 +74,6 @@ a:hover {
     }
 }
 
-/* Headshot Styles */
-.intro-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; /* Allow image and text to stack on small screens */
-    text-align: center; /* Center the text below when stacked */
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.headshot {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    flex-shrink: 0;
-    margin: 0 auto; /* Ensures image is centered */
-}
-
-.intro-text h1 {
-    margin-bottom: 0.25rem;
-}
-
-.intro-text p {
-    margin: 0.25rem 0;
-}
-
-@media (min-width: 700px) {
-    .intro-container {
-        text-align: left; /* Restore left-alignment on wider screens */
-        justify-content: flex-start;
-    }
-
-    .headshot {
-        margin: 0;
-    }
-}
-
 /* Footer Style */
 .site-footer {
     margin-top: 2rem;
