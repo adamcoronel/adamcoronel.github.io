@@ -1,4 +1,3 @@
+theme: jekyll-theme-minimal
 title: Adam Coronel
-
-sass:
-    style: compressed
+description: Software Engineer
