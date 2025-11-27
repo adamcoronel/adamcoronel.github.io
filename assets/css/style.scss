@@ -1,0 +1,11 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #0d1117;
+        --text-color: #c9d1d9;
+    }
+}
